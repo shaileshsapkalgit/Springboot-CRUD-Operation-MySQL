@@ -52,8 +52,8 @@ public class EmployeeController {
 
         return ResponseEntity.ok("Employee with ID " + id + " deleted successfully");
     }
-    @GetMapping()
-    public String hello("/")
+    @GetMapping("/")
+    public String hello()
     {
         return "your application is working fine";
     }
